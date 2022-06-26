@@ -1,7 +1,6 @@
 Kotlin Por onde começar?
 
-*Sistema operacional para dispositivos móveis
-mantido pela Google desde 2005
+*Sistema operacional para dispositivos móveis mantido pela Google desde 2005
 *Mais de 2.5 bilhões de usuários ativos
 *Presente em mais de 24 mil modelos de dispositivos
 =======================================================
@@ -24,8 +23,7 @@ https://developer.android.com/docs?hi=pt-br
 
 *Criada pela JetBrains em 2011 atualmente mantida
 pela Kotlin foundation;
-*Linguagem multiplataforma, orientada a objetos
-e funcional
+*Linguagem multiplataforma, orientada a objetos e funcional
 *Gratuito e de código aberto;
 *Nome em homenagem a ilha russa, Kotlin
 
@@ -49,13 +47,13 @@ e funcional
 A relação entre Kotlin e Android
 Kotlin: vantagens
 
-*Segura estruturada, menos verbosa, mais otimizada,
-de grande relevância no mercado;
+*Segura estruturada, menos verbosa, mais otimizada, de grande relevância no mercado;
 *Interoperabilidade com o Java;
 *Smart casts e null safety;
 *Android é Kotlin first.
 
 Linha do tempo (Kotlin + Android)
+
 *2016: Primeira versão do Kotlin
 *2017: Google anuncia suporte a Kotlin para 
 desenvolvimento Android;
