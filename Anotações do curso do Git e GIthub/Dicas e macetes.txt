@@ -37,9 +37,10 @@ sempre tera uma chave publica e uma privada
 TOKEN
 
 comandos 
--git init : iniciar o Repositorio Git
--git add Iniciar o versionamento
--git commit Criar um commit
+git clone  e colocar o link do repositorio que será clonado: clonar repositório
+git init : iniciar o Repositorio Git
+git add : Iniciar o versionamento
+git commit : Criar um commit
 
 git clone  e colocar o link do repositorio que será clonado:clonar repositório
 git status : mostrar o o que tem dentro da pasta
