@@ -1,0 +1,76 @@
+Kotlin Por onde começar?
+
+*Sistema operacional para dispositivos móveis
+mantido pela Google desde 2005
+*Mais de 2.5 bilhões de usuários ativos
+*Presente em mais de 24 mil modelos de dispositivos
+=======================================================
+
+Como é o desenvolvimento android
+
+Hibrido e nativo
+Hibrido é o desenvolvimento do código para varios S.O
+Nativo é o desenvolvimento do código para um S.O
+
+Dart, Javascript e C# para desenvolvimento Hibrido
+Java e Kotlin para desenvolvimento nativo
+
+Documentação e primeiros passos
+https://developer.android.com/docs?hi=pt-br 
+
+=======================================================
+
+   O que é kotlin
+
+*Criada pela JetBrains em 2011 atualmente mantida
+pela Kotlin foundation;
+*Linguagem multiplataforma, orientada a objetos
+e funcional
+*Gratuito e de código aberto;
+*Nome em homenagem a ilha russa, Kotlin
+
+  Estrutura da linguagem
+
+*Não utiliza ponto e vírgula;
+*Não possui operador ternário tradicional;
+*Type Safe e null Safe;
+*Inferência de tipo;
+
+  Aplicabilidade
+
+*Android nativo;
+*Mobile multiplataforma (KMM);
+*Frontend Web com Kotlin /Js;
+*Frameworks;
+*Backend com target node.js do Kotlin/JS;
+
+=======================================================
+
+A relação entre Kotlin e Android
+Kotlin: vantagens
+
+*Segura estruturada, menos verbosa, mais otimizada,
+de grande relevância no mercado;
+*Interoperabilidade com o Java;
+*Smart casts e null safety;
+*Android é Kotlin first.
+
+Linha do tempo (Kotlin + Android)
+*2016: Primeira versão do Kotlin
+*2017: Google anuncia suporte a Kotlin para 
+desenvolvimento Android;
+*2018: Segunda linguagem preferida dos desenvolvedores
+*2019: Nova linguagem oficial para desenvolvimento
+Android
+
+=======================================================
+
+E o Java?
+
+Vai continuar funcionando para desenvolvimento
+android mais vai depender da demanda que será 
+utilizado, o mercado esta construindo produtos
+em Kotlin
+
+=======================================================
+
