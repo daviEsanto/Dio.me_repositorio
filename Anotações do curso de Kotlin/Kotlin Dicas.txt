@@ -34,6 +34,8 @@ pela Kotlin foundation;
 *Type Safe e null Safe;
 *Inferência de tipo;
 
+
+
   Aplicabilidade
 
 *Android nativo;
@@ -70,5 +72,147 @@ android mais vai depender da demanda que será
 utilizado, o mercado esta construindo produtos
 em Kotlin
 
-=======================================================
+======================================================
+Olá mundo e Tipos de dados
 
+Plataforma web do Kotlin
+https://play.kotlinlang.org/
+No site tem rutoriais, exemplos,
+é opensource e pode ter contribuições
+
+Tipos de dados no Kotlin
+Numericos: Int/ Long / float / Double
+Lista: Array / Boolean / Char / Byte/ Short * Null 
+
+Conversão de dados
+O Kotlin ja vem embutido os metodos de conversa:
+toByte()
+toShort()
+toInt()
+toLong()
+toFloat()
+toDouble()
+toChar()
+
+======================================================
+
+Como declarar variáveis
+
+var (camelCase): Valor definido e alterado na execução
+Exemplo:
+var currentAge = 22
+var currentAge :Int?
+currentAge = null ou 22
+
+val (camelCase): valor definido durante a execução
+Exemplo:
+val currentAge = 22
+val currentAge: Int?
+currentAge = null ou 22
+
+const val (SNAKE_CASE): valor definido na compilação
+Exemplo:
+const val MIN_AGE = 16
+const val MAX_AGE = 68
+
+======================================================
+
+Prevendo erros de declaração de variaveis
+
+Possíveis erros
+
+1º Exemplo:
+
+	var currentAge
+	currentAge = 22 //ERRO! 
+
+o kotlin pede ou o tipo da variavel ou o valor à receber
+
+Exemplo Certo:
+
+	var currentAge = 90
+
+	ou
+
+	var currentAge: Int
+	currentAge = 90
+
+
+2º Exemplo:
+
+	var currentYear ="ano"
+	currentYear = 2021 //Erro!
+
+Erro por conta do valor inteiro querendo atribuir
+a uma variavel do tipo String
+
+Exemplo Certo:
+
+	var currentYear ="ano"
+	currentYear = 2021.toString()
+converter o valor em String
+
+======================================================
+
+Valor nulo e operadores aritiméticos
+
+Nullability
+
+Qualquer tipo poder ser nulo, porem isso deve ser 
+explicitado na declaração de variaveis pela ?
+
+Exemplo certo:
+	var month:Int = null
+	//Atribui valor null corretamente a month
+
+Exemplo com erro:
+	var day: Int = null
+	/* Erro de compilação
+"Null can not be a value of a non-null type Int */"
+
+Operadores aritiméticos
+
+Podem ser chamados de expressão ou comando o resultado
+será o mesmo . A função de soma tambem funciona para
+concatenar Strings;
+
+ ______________ _________ __________ __________
+| Função       |Expressão|Comando   |Atribuição|
+| Soma         |  a + b  |a.plus(b) |  a+=b    |
+| Subtração    |  a - b  |a.minus(b)|  a-=b    |
+| Multiplicação|  a * b  |a.times(b)|  a*=b    |
+| Divisão      |  a / b  |a.div(b)  |  a/=b    |
+| Resto        |  a % b  |a.mod(b)  |  a%=b    |
+ —————————————— ————————— —————————— ——————————
+
+==============================================================
+
+Operadores comparativos e Operadores In e Range
+
+ ____________________ _____________ _________________________ 
+| Função             |Expressão    |Comando                  |
+| Maior/menor        |a>b ou a<b   |a.compareTo(b) >0 ou <0  |
+| Maior/menor igual  |a>=b ou a<=b |a.compareTo(b) >=0 ou <=0|    |
+| Igual              |a==b         |a.equals(b)              |
+| Diferente          |a!=b         |!a.(quals(b))            |
+ ———————————————————— ————————————— ————————————————————————— 
+
+==============================================================
+Operadores lógicos 
+
+Quando utiliza-se o comando, é recomendado colocar a 
+a expressão entre parênteses
+
+ ____________________  ______________________________  
+| Função  e expressão |Expressão                     |
+| E (&&)              |(expressão1) and (expressão2) |
+| Ou (||)             |(expressão1) or (expressão2  )|  
+ ———————————————————— ————————————— ————————————————— 
+
+
+Operadores In e Range
+
+Operador In: verifica se o valor esta presente em uma lista ou 
+esta presente em uma faixa de valores
+*Range cria um intervalo de valores que inicia no primeiro 
+parâmetro e acaba no segundo
