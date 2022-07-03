@@ -216,3 +216,47 @@ Operador In: verifica se o valor esta presente em uma lista ou
 esta presente em uma faixa de valores
 *Range cria um intervalo de valores que inicia no primeiro 
 parâmetro e acaba no segundo
+
+
+==============================================================
+
+Manipulando Strings
+
+Strings possuem diversos métodos associativos;
+intexação, concatenação,comparação, formatação
+pode ser concatenada com plus/+;
+também é tratada como um array de Char;
+
+Array
+
+O tipo array é uma matriz de valores, tudo do mesmo tipo, 
+portanto seria como se tivéssemos vários elementos dentro de um
+a variável, que pode ser apenas de um tipo.
+first() Acessa a primeira posição do array
+last() ultima posição do array
+
+Concatenação
+
+para concatenar duas strings o plus /+ pode ser utilizado;
+para concatenar uma variável a uma String, os símbolos ${} 
+devem ser inseridos;
+
+                  FORMATAÇÃO
+
+Nome: capitalização de strings
+função: Alterar a formatação entre minúsculas e maiúsculas
+Métodos:capitaliza(), toUpperCase() toLowerCase(), and 
+decapitalize{}
+
+Nome: Remoção de espaços
+Função: Remove espaços vazios e caracteres inadequados
+para impressão
+Métodos: trimEnd(), trimStart(),Trim()
+
+Nome:Subtituição de caracteres
+Função:Substituir caracteres por outros
+Método: replace(x,y)
+
+Nome:Formatação
+Função:Formatar outros valores para um padrão de string
+Métodos:"padrão ${valor}".format(valor)
